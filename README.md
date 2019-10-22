@@ -27,7 +27,7 @@ gem install sobiratel
 ```ruby
 require 'sobiratel'
 
-array = ["foo.com", 'bar.com', 'baz.com']
+array = ['foo.com', 'bar.com', 'baz.com']
 
 p Sobiratel.get_email(array)
 ```
